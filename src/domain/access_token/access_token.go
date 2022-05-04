@@ -6,7 +6,7 @@ const (
 	expirationTime = 24
 )
 
-type AccessToken = struct {
+type AccessToken struct {
 	AccessToken string 	`json:"acces_token"`
 	UserId 			int64 	`json:"user_id"`
 	ClientId 		int64 	`json:"client_id"`
